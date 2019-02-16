@@ -89,6 +89,10 @@ if __name__ == "__main__":
 
 	ticker = threading.Event()
 
+	if varsdict["versioning"]:
+		enable_versioning(s3 , varsdict["bucket"] )
+		
+
 	while not ticker.wait( seconds ):
 		print(" Running backup on bucket {}".format( varsdict["bucket"]) )
 		backup( varsdict["folder"] , bucket )
