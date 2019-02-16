@@ -1,4 +1,6 @@
 # A simple backup script for AWS buckets
+Andres Felipe Huertas Suarez - Cloud AWS Fundamentals, University of Helsinki. 
+
 
 This simple scripts uploads the contents of a given folder to a AWS bucket. The script asumes the existence of the bucket( and proper configuration) and will raise an exception otherwise.
 
