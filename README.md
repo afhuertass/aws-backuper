@@ -6,8 +6,6 @@ The scripts checks for files in a given directory and list them, afterwards begi
 
 To work it needs boto3, and a credentials file with the following format:
 
-Credentials File:
-
 aws_access_key_id
 
 aws_secret_access_key
