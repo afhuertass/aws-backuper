@@ -22,10 +22,12 @@ python backuper.py -credfile=creditx.txt -folder=./data -bucket=aws-uh-bckup -ti
 
 The arguments are as follows:
 
+**-bucket**: the target bucket
+
 **-credfile**: the File with the AWS credentials (str)
 
 **-folder**: The folder to be updated to AWS ( str)
 
-**-time**: the time in minutes between eachupdate ( int) 
+**-time**: the time in minutes between each update ( int) 
 
 **-versioning** : Use this option to activate Bucker versioning.
